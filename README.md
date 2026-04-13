@@ -36,7 +36,7 @@ like:
 
 I manually edit this file tossing away everything except the coordinates values.  
 
-Then I run that file through my rdp.py program.  I wrote rdp.py to create a kml
+Then I run the coordinates file through my rdp.py program.  I wrote rdp.py to create a kml
 file from lon,lat,alt values.
 
 To get a list of the program's command line parameters, run 
@@ -63,6 +63,7 @@ This creates a great looking Google Earth Map.
 
 Here's the console output:
 
+```
 👉 python3 rdp.py -i all_points.csv -o reduced_points.kml -e 24 -s 5 -x 
 Program parameters
   KML description:       GENERIC
@@ -90,6 +91,7 @@ error = 24.0 ft.
 epsilon = 8.333333333333333e-05
 RDP retained 1569 points @ epsilon 8.333333333333333e-05
 Elapsed time: 0.0816192626953125
+```
 
 The original path had 10730 track points.  This was reduced to 1569.
 I then took this 1569 point kml, cut and pasted the <coordinates> into a .csv file,
