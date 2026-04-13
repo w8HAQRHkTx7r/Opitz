@@ -93,8 +93,8 @@ RDP retained 1569 points @ epsilon 8.333333333333333e-05
 Elapsed time: 0.0816192626953125
 ```
 
-The original path had 10730 track points.  This was reduced to 1569.
-I then took this 1569 point kml, cut and pasted the <coordinates> into a .csv file,
-added a lat,lon,alt header and ran that through your csv_to_stl.py program. I brought
+The original path had 10730 track points.  My program reduced that to 1569 points.
+I then took the 1569 point kml, cut and pasted the <coordinates> into a new .csv file,
+added a lat,lon,alt header and ran that through your csv_to_stl.py program. I imported
 that .stl output into TinkerCAD.
 
