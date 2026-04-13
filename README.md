@@ -6,7 +6,7 @@ ride is completed, the app pushes all the data up to the web.
 You can export the ride from the web as a .kml file.  The contents looks
 like:
 
-<?xml version="1.0" encoding="UTF-8"?>
+`<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="1">
         <Style id="4">
@@ -31,6 +31,7 @@ like:
 -85.221582,39.853677,353.4
 -85.227315,39.853566,340.6
 ...
+`
 
 I manually edit this file tossing away everything except the coordinates values.  
 
